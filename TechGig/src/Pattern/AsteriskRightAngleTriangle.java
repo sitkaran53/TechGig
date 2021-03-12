@@ -8,13 +8,13 @@ public class AsteriskRightAngleTriangle {
 
 		Scanner scn = new Scanner(System.in);
 		int numberOfRow = scn.nextInt();
-		
+
 		scn.close();
 
 		int row = 1;
-		int nst = 1;  //Number of Stars
+		int nst = 1; // Number of Stars
 		while (row <= numberOfRow) {
-			for (int cst = 1; cst <= nst; cst++) {    // count of stars
+			for (int cst = 1; cst <= nst; cst++) { // count of stars
 				System.out.print("*");
 				if (cst < nst) {
 					System.out.print(" ");
